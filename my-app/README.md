@@ -206,3 +206,8 @@ It handles:
 - Keep export-related logic inside `src/utils/exportUtils.js`.
 - Replace page-level mock arrays with service calls when the backend is ready.
 - The root route redirects to Attendance because it is the first implemented working module.
+
+## Contributors
+
+- [Pratik-Ghrcemp](https://github.com/Pratik-Ghrcemp)
+- [Pratik Shelar](https://github.com/shelarpratik201-cyber)
