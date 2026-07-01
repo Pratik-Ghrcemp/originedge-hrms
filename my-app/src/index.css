@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f8f7f5;
+  --color-text-primary: #1c1c1a;
+  --color-text-secondary: #5f5e5a;
+  --color-text-tertiary: #888780;
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-text-info: #185FA5;
+  --color-text-success: #1A7A45;
+  --color-text-warning: #854F0B;
+  --border-radius-md: 6px;
+  --border-radius-lg: 10px;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background-primary: #1c1c1a;
+    --color-background-secondary: #232320;
+    --color-text-primary: #d3d1c7;
+    --color-text-secondary: #888780;
+    --color-text-tertiary: #5f5e5a;
+    --color-border-tertiary: rgba(255,255,255,0.08);
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-background-primary);
+  color: var(--color-text-primary);
+}
